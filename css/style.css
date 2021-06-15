@@ -44,3 +44,9 @@ main article h2 {
 table , td , th {
   border: 1px black solid;
 }
+
+
+
+img {
+  border-radius: 50%;
+}
