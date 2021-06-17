@@ -429,16 +429,16 @@ function formAdding(event) {
   let maxCust = event.target.maxCust.value;
   let avgCookie = event.target.avgCookie.value;
 
+  datatable.deleteRow(-1);
+
   let newBranch = new CookieStand(name, minCust, maxCust, avgCookie);
   
-//   for (let r = 1; r < 20; r++) {
-//     let totalRows = parseInt(datatable.rows[1].cells[r].innerHTML);
-//     datatable.rows[1].cells[r].innerHTML = fixedTotal + newCity.cookieList[r - 1];
-//   }
+
 
 newBranch.getCustomer();
 newBranch.render();
-
+formAdding.reset();
+makeTableFooter
 
 }
 
