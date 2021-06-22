@@ -25,13 +25,39 @@
   </header>
   <main>
     <section>
-     
       <h2>Pats's Salmon cookies:Sales Data</h2>
+
+      <fieldset>
+        <legend>add New Branch</legend>
+        <form id="newBranchForm">
+          <div>
+            <label for="branchName">Branch Name</label>
+            <input type="text" name="branchName" id="branchName" placeholder="SEATTLE">
+          </div>
+          <div>
+            <label for="minCust">min Customers</label>
+            <input type="text" name="minCust" id="minCust" placeholder="Add Number">
+          </div>
+          <div>
+            <label for="maxCust">max Customers</label>
+            <input type="text" name="maxCust" id="maxCust" placeholder="Add Number">
+          </div>
+          <div>
+            <label for="avgCookie">Average Cookies</label>
+            <input type="text" name="avgCookie" id="avgCookie" placeholder="Add Number">
+          </div>
+
+
+          <button type="submit">Add</button>
+        </form>
+
+      </fieldset>
+     
       <div id="salesData">
     </section>
     </div>
-    <table>
-      <div id="salestable"></div>
+    <table  id="salestable">
+      
     </table>
 
     <script src="js/app.js"></script>
