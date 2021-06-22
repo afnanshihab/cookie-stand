@@ -4,7 +4,7 @@
 const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
 const parentElement = document.getElementById('salesData');
-let datatable = document.getElementById('Datatable');
+let salestable = document.getElementById('salestable');
 
 let newBranchForm = document.getElementById('newBranchForm');
 
@@ -175,14 +175,14 @@ function formAdding(event) {
   let maxCust = event.target.maxCust.value;
   let avgCookie = event.target.avgCookie.value;
 
-  datatable.deleteRow(-1);
+  salestable.deleteRow(-1);
 
   let newBranch = new CookieStand(name, minCust, maxCust, avgCookie);
   
 newBranch.getCustomer();
 newBranch.render();
-formAdding.reset();
-makeTableFooter
+newBranchForm.reset();
+makeTableFooter() ;
 
 }
 

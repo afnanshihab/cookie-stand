@@ -54,3 +54,45 @@ main article h2 {
   text-transform: capitalize;
 
 
+}
+
+
+
+table , td , th {
+  border: 1px black solid;
+
+
+
+
+ 
+form {
+  border: 5px  rgb(11, 11, 56) solid;
+  margin: 20px;
+  border-radius: 5px;
+  display: table-cell;
+
+  background-color: darkorchid;
+
+
+}
+
+
+ img {
+  border-radius: 50%;
+ 
+ 
+} 
+html {
+  height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+
+
+
