@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 * {
   font-family: Arial, sans-serif;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+nav{
+font-style: italic;
 }
 
 header {
@@ -15,9 +21,18 @@ header {
   margin-bottom: 20px;
 }
 
-header h1 {
+main  h1 {
   line-height: 50px;
-  color: #fff;
+  color: rgb(143, 5, 5);
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+main  h2 {
+  line-height: 50px;
+  color: rgb(143, 5, 5);
+  text-transform: capitalize;
+  font-style: italic;
 }
 
 main {
@@ -37,16 +52,5 @@ main article h2 {
   color: #fb743e;
   font-weight: 700;
   text-transform: capitalize;
-}
 
 
-
-table , td , th {
-  border: 1px black solid;
-}
-
-
-
-img {
-  border-radius: 50%;
-}
