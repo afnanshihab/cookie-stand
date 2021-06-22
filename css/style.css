@@ -58,9 +58,7 @@ main article h2 {
 
 table , td , th {
   border: 1px black solid;
-  background-color: cadetblue;
-  
-}
+
 
 
 
@@ -73,7 +71,11 @@ form {
 
   background-color: darkcyan;
 
+<<<<<<< HEAD
 
+=======
+  background-color: darkorchid;
+>>>>>>> 46b74e0c9782671bdcc62349b51f0441f6cb53f8
 
 }
 
@@ -89,4 +91,10 @@ html {
 }
 
 main {
+<<<<<<< HEAD
   font-family: Arial, Helvetica, sans-serif;
+=======
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+>>>>>>> 46b74e0c9782671bdcc62349b51f0441f6cb53f8
