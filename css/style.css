@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 * {
   font-family: Arial, sans-serif;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -52,6 +53,7 @@ main article h2 {
   font-weight: 700;
   text-transform: capitalize;
 
+
 }
 
 
@@ -69,13 +71,8 @@ form {
   border-radius: 5px;
   display: table-cell;
 
-  background-color: darkcyan;
-
-<<<<<<< HEAD
-
-=======
   background-color: darkorchid;
->>>>>>> 46b74e0c9782671bdcc62349b51f0441f6cb53f8
+
 
 }
 
@@ -91,10 +88,11 @@ html {
 }
 
 main {
-<<<<<<< HEAD
+
   font-family: Arial, Helvetica, sans-serif;
-=======
-  font-family: Arial, Helvetica, sans-serif;
+
+  
 }
 
->>>>>>> 46b74e0c9782671bdcc62349b51f0441f6cb53f8
+
+
