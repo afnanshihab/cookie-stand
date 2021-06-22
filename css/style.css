@@ -58,6 +58,7 @@ main article h2 {
 
 table , td , th {
   border: 1px black solid;
+  background-color: cadetblue;
   
 }
 
@@ -66,6 +67,7 @@ form {
   margin: 20px;
   border-radius: 5px;
   display: table-cell;
+  background-color: darkcyan;
 }
 
 
